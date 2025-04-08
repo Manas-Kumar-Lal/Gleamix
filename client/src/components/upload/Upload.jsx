@@ -4,6 +4,7 @@ import { Dropzone, FileMosaic } from "@files-ui/react";
 const Header = () => {
 
   const [files, setFiles] = React.useState([]);
+  console.log(files)
   const updateFiles = (incommingFiles) => {
     setFiles(incommingFiles);
   };
